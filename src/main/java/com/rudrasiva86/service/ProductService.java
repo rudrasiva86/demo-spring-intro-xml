@@ -2,11 +2,16 @@ package com.rudrasiva86.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.rudrasiva86.model.Product;
 import com.rudrasiva86.repository.IProductRepository;
 
+@Service
 public class ProductService implements IProductService {
 	
+	@Autowired
 	private IProductRepository productRepository;
 
 	public ProductService() {

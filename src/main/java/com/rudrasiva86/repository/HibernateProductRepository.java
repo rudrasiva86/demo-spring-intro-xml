@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.rudrasiva86.model.Product;
 
+@Repository
 public class HibernateProductRepository implements IProductRepository {
 
 	@Override
