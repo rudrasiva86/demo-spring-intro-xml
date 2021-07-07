@@ -9,11 +9,8 @@
 		class="com.rudrasiva86.repository.HibernateProductRepository"
 		scope="singleton"/>
 		
-	<bean name="productService" class="com.rudrasiva86.service.ProductService">
-		<!-- Setter injection -->
-		<!-- <property name="productRepository" ref="productRepository"/> -->
-		
-		<!-- Construct injection -->
-		<constructor-arg index="0" ref="productRepository"></constructor-arg>
-	</bean>
+	<!-- autowire="constructor" -->
+	<!-- autowire="byType" -->
+	<!-- autowire="byName" -->
+	<bean name="productService" class="com.rudrasiva86.service.ProductService" autowire="constructor"/>
 </beans>

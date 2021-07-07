@@ -7,4 +7,11 @@
 		- can be of any name
 		- xml configuration begins with this file
 		- namespaces helps in configuration/validation
-		
+5. setter injection
+6. constructor injection
+7. autowiring
+	- default => no. explicit configuration through property & ref tags
+	- no
+	- constructor
+	- byType
+	- byName
