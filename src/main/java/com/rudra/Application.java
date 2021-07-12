@@ -1,10 +1,10 @@
-package com.rudrasiva86;
+package com.rudra;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.rudrasiva86.service.IProductService;
-import com.rudrasiva86.service.ProductService;
+import com.rudra.service.IProductService;
+import com.rudra.service.ProductService;
 
 public class Application {
 	
